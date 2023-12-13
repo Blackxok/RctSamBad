@@ -5,13 +5,13 @@ import Search_panel from "../search_panel/Search_panel";
 
 function App() {
    return (
-      <>
-         <div>
-            <App_filter />
+      <div className="app">
+         <div className="content">
             <App_info />
+            <App_filter />
             <Search_panel />
          </div>
-      </>
+      </div>
    );
 }
 
