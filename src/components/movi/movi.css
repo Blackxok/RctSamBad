@@ -1,0 +1,7 @@
+.app_movi {
+   border: 1px solid rgba(255, 255, 255, 0.138);
+   box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.433);
+   padding: 1em 4em;
+   font-size: 25px;
+   width: 1000px;
+}
