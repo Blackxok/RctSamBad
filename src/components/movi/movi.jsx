@@ -8,7 +8,6 @@ function Movi() {
          <MoviItem />
          <MoviItem />
          <MoviItem />
-         <MoviItem />
       </div>
    );
 }

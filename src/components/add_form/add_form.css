@@ -11,6 +11,19 @@
    align-items: center;
    justify-content: space-between;
 }
+
+.add_form_content :nth-child(1) {
+   border-radius: 10px 0 0 10px;
+}
+
+.add_form_content :nth-child(2) {
+   border-radius: 0 0 0 0;
+}
+
+.add_form_content :last-child {
+   border-radius: 0 10px 10px 0;
+}
+
 .add_form_content input {
    width: 100%;
    font-size: 25px;
