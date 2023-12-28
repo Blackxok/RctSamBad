@@ -1,20 +1,25 @@
-import AddForm from "../add_form/add_form";
-import "../app/App.css";
-import App_filter from "../app_filter/App_filter";
-import App_info from "../app_info/App_info";
-import Movi from "../movi/movi";
+import { useRef } from "react";
+import "./App.css";
 
-function App() {
+const User = () => {
+   const cRef = useRef();
+
    return (
-      <div className="app">
-         <div className="content">
-            <App_info />
-            <App_filter />
-            <Movi />
-            <AddForm />
+      <div className="container">
+         <div className="inputGroup">
+            <input type="text" className="input_1" placeholder="number" />
+            <input ref={cRef} type="text" className="input_2" placeholder="password" />
          </div>
       </div>
    );
-}
+};
+
+const App = () => {
+   return (
+      <div className="container">
+         <User />
+      </div>
+   );
+};
 
 export default App;
